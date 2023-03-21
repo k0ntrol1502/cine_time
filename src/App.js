@@ -1,20 +1,16 @@
 import React from 'react';
 import Sidebar from './sidebar';
+import Header from './Header'
+import { Box } from '@chakra-ui/react'
 import './App.css';
-import { Heading } from '@chakra-ui/react'
 function App() {
   return (
     <div className="App" id="outer-container">
-    <Heading noOfLines={3}>
+    <Box bg='tomato' w='100%' p={6} color='white'>
       Cine Time
-    </Heading>
+    </Box>
       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-      <div id="page-wrap">
-      <h2>
-        Booking made easy
-      </h2>
       </div>
-    </div>
   );
 }
 
