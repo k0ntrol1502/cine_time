@@ -14,7 +14,9 @@ function App() {
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
       </div>
       <div>
-        <Nav />
+      <Box bg='grey' w='100%' p={3} color='white' fontSize={25} boxShadow="md">
+        <Nav />    
+      </Box>
       </div>
     </div>
   );
