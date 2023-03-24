@@ -1,7 +1,7 @@
 import React from 'react';
 import Sidebar from './sidebar';
 import { Box } from '@chakra-ui/react';
-import  navigation from'./navigation';
+import  Nav from'./Navigation';
 import './App.css';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
       </div>
       <div>
-        <navigation />
+        <Nav />
       </div>
     </div>
   );
