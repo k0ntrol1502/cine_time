@@ -1,16 +1,22 @@
 import React from 'react';
 import Sidebar from './sidebar';
-import { Box } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react';
+import  navigation from'./navigation';
 import './App.css';
 
 function App() {
   return (
-    <div className="App" id="outer-container">
-    <Box bg='tomato' w='100%' p={7} color='white' fontSize={25} boxShadow="md">
-      Cine Time
-    </Box>
-      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+    <div>
+      <div className="App" id="outer-container">
+        <Box bg='crimson' w='100%' p={7} color='white' fontSize={25} boxShadow="md">
+          Cine Time
+        </Box>
+        <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
       </div>
+      <div>
+        <navigation />
+      </div>
+    </div>
   );
 }
 
