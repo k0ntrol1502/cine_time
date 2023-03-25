@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from './sidebar';
 import { Box } from '@chakra-ui/react';
 import  Nav from'./Navigation';
+import Mov from './Mov'
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Nav />    
       </Box>
       </div>
+      <Mov />
     </div>
   );
 }
