@@ -2,8 +2,8 @@ import React from "react";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Flex } from "@chakra-ui/react";
 function nav  () {
   return(
-    <Flex justify="center" align="center" height  ="0.5">
-    <Breadcrumb fontsize="8" spacing= "8px" separator={'>'} fontSize="xs">
+    <Flex justify="left" align="center" height  ="5">
+    <Breadcrumb fontsize="8" spacing= "20px" separator={'|'} fontSize="xl">
       <BreadcrumbItem>
         <BreadcrumbLink href="#">Home</BreadcrumbLink>
       </BreadcrumbItem>

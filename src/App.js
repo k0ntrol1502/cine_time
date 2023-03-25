@@ -1,7 +1,7 @@
 import React from 'react';
 import Sidebar from './sidebar';
 import { Box } from '@chakra-ui/react';
-import  Nav from'./Navigation';
+import  Nav from './Navigation';
 import Mov from './Mov'
 import './App.css';
 

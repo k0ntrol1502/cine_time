@@ -25,7 +25,7 @@ function Mov () {
     </CardBody>
 
     <CardFooter>
-      <Button variant='solid' colorScheme='blue'>
+      <Button variant='solid' colorScheme='red'>
         Buy Latte
       </Button>
     </CardFooter>
