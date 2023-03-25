@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <div className="App" id="outer-container">
-        <Box bg='crimson' w='100%' p={7} color='white' fontSize={25} boxShadow="md">
+        <Box bg='crimson' w='100%' p={7} color='white' fontSize={30} boxShadow="md">
           Cine Time
         </Box>
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
