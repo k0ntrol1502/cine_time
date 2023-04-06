@@ -5,16 +5,13 @@ export default props => {
   return (
     <Menu>
       <a className="menu-item" href="/">
-        Profile
+        Home
       </a>
-      <a className="menu-item" href="/salads">
-        Salads
+      <a className="menu-item" href="/about">
+        About Us
       </a>
-      <a className="menu-item" href="/pizzas">
-        Pizzas
-      </a>
-      <a className="menu-item" href="/desserts">
-        Desserts
+      <a className="menu-item" href="/contact">
+        Contact Us
       </a>
     </Menu>
   );

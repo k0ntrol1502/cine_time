@@ -11,17 +11,17 @@ function Mov () {
   <Image
     objectFit='cover'
     maxW={{ base: '100%', sm: '200px' }}
-    src="/images/DemonSlayer.jpeg"
+    src='.\images\DemonSlayer.jpeg'
     alt='Demon Slayer'
   />
 
   <Stack>
     <CardBody>
-      <Heading size='md'>The perfect latte</Heading>
+      <Heading size='md'>Demon Slayer: Kimetsu No Yaiba To The Swordsmith Village</Heading>
 
       <Text py='2'>
-        Caffè latte is a coffee beverage of Italian origin made with espresso
-        and steamed milk.
+      Tanjiro Kamado, a boy whose family was killed by a demon, joins the Demon Slayer Corps 
+      to turn his younger sister Nezuko back into a human after she was transformed into a demon.
       </Text>
     </CardBody>
 
@@ -41,17 +41,17 @@ function Mov () {
   <Image
     objectFit='cover'
     maxW={{ base: '100%', sm: '200px' }}
-    src='https://images.unsplash.com/photo-1667489022797-ab608913feeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'
+    src='https://ik.imagekit.io/5if8ukbxw/images/Pathaan.jpg?updatedAt=1680794969643'
     alt='Caffe Latte'
   />
 
   <Stack>
     <CardBody>
-      <Heading size='md'>The perfect latte</Heading>
+      <Heading size='md'>Pathaan</Heading>
 
       <Text py='2'>
-        Caffè latte is a coffee beverage of Italian origin made with espresso
-        and steamed milk.
+      A soldier caught by enemies and presumed dead comes 
+      back to complete his mission, accompanied by old companions and foes.
       </Text>
     </CardBody>
 
@@ -71,17 +71,18 @@ function Mov () {
   <Image
     objectFit='cover'
     maxW={{ base: '100%', sm: '200px' }}
-    src='https://images.unsplash.com/photo-1667489022797-ab608913feeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'
+    src='https://ik.imagekit.io/5if8ukbxw/images/JohnWick4.jpg?updatedAt=1680794969427'
     alt='Caffe Latte'
   />
 
   <Stack>
     <CardBody>
-      <Heading size='md'>The perfect latte</Heading>
+      <Heading size='md'>John Wick: Chapter 4</Heading>
 
       <Text py='2'>
-        Caffè latte is a coffee beverage of Italian origin made with espresso
-        and steamed milk.
+      John Wick (Keanu Reeves) takes on his most lethal adversaries yet in the upcoming fourth installment of the series. 
+      With the price on his head ever increasing, Wick takes his fight against the High Table global as he seeks out the most powerful players in the underworld, 
+      from New York to Paris to Osaka to Berlin.
       </Text>
     </CardBody>
 
@@ -101,17 +102,17 @@ function Mov () {
   <Image
     objectFit='cover'
     maxW={{ base: '100%', sm: '200px' }}
-    src='https://images.unsplash.com/photo-1667489022797-ab608913feeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60'
+    src='https://ik.imagekit.io/5if8ukbxw/images/kakkar.jpg?updatedAt=1680794969636'
     alt='Caffe Latte'
   />
 
   <Stack>
     <CardBody>
-      <Heading size='md'>The perfect latte</Heading>
+      <Heading size='md'>Tu Jhoothi Mai Makkaar</Heading>
 
       <Text py='2'>
-        Caffè latte is a coffee beverage of Italian origin made with espresso
-        and steamed milk.
+      Madness ensues when a `player` in the world of romantic relationships finds a girl who`s a worthy opponent. Tu Jhoothi Main Makkaar
+       is a film that believes love is a battle of wits.
       </Text>
     </CardBody>
 

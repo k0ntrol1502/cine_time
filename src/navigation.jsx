@@ -1,19 +1,20 @@
 import React from "react";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Flex } from "@chakra-ui/react";
+import {Link} from "react-router-dom";
 function nav  () {
   return(
-    <Flex justify="left" align="center" height  ="5">
+    <Flex justify="center" align="center" height  ="5">
     <Breadcrumb fontsize="8" spacing= "20px" separator={'|'} fontSize="xl">
       <BreadcrumbItem>
-        <BreadcrumbLink href="#">Home</BreadcrumbLink>
+        <BreadcrumbLink><Link to="/">Home</Link></BreadcrumbLink>
       </BreadcrumbItem>
 
       <BreadcrumbItem>
-        <BreadcrumbLink href="#">About</BreadcrumbLink>
+        <BreadcrumbLink ><Link to="/about">About</Link></BreadcrumbLink>
       </BreadcrumbItem>
 
       <BreadcrumbItem isCurrentPage>
-        <BreadcrumbLink href="#">Shirts</BreadcrumbLink>
+        <BreadcrumbLink ><Link to="/contact">Contact</Link></BreadcrumbLink>
       </BreadcrumbItem>
     </Breadcrumb>
     </Flex>
