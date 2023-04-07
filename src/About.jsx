@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Heading, Text } from "@chakra-ui/react";
-
+import { Box, Heading, Text, Button } from "@chakra-ui/react";
+import { FaTwitter, FaFacebook, FaGithub } from "react-icons/fa";
 const AboutUs = () => {
   return (
     <Box p="4">
@@ -23,6 +23,23 @@ const AboutUs = () => {
         you have any questions or concerns, please don't hesitate to reach out to
         our friendly and knowledgeable support team.
       </Text>
+      <br />
+      <br />
+      <a href="https://www.facebook.com/arya.dewanji.1/" target="_blank" rel="noopener noreferrer">
+      <Button mr={5} colorScheme='facebook' leftIcon={<FaFacebook />} href="https://www.facebook.com/arya.dewanji.1/" target="_blank" rel="noopener noreferrer">
+        Arya Dewanji
+      </Button>
+      </a>
+      <a href="https://twitter.com/aryadewanji" target="_blank" rel="noopener noreferrer">
+      <Button mr={5} colorScheme='twitter' leftIcon={<FaTwitter />} href ="https://twitter.com/aryadewanji">
+        @AryaDewanji
+      </Button>
+      </a>
+      <a href="https://github.com/k0ntrol1502" target="_blank" rel="noopener noreferrer">
+      <Button colorScheme="teal"  leftIcon={<FaGithub />} href ="https://twitter.com/aryadewanji">
+        @AryaDewanji
+      </Button>
+      </a>
     </Box>
   );
 };

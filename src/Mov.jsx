@@ -11,7 +11,7 @@ function Mov () {
   <Image
     objectFit='cover'
     maxW={{ base: '100%', sm: '200px' }}
-    src='.\images\DemonSlayer.jpeg'
+    src='https://ik.imagekit.io/5if8ukbxw/images/DemonSlayer.jpeg?updatedAt=1680794969611'
     alt='Demon Slayer'
   />
 

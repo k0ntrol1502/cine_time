@@ -13,7 +13,8 @@ function ContactInfo() {
       <Heading as="h2" size="lg" mb="2">
         Contact Us
       </Heading>
-
+<br />
+<br />
       {/* <Text fontSize="lg" mb="3">
         We'd love to hear from you!
       </Text>
@@ -33,6 +34,7 @@ function ContactInfo() {
         <Input placeholder='Last name' />
       </FormControl>
       </Flex>
+      <br />
       <FormControl isRequired>
       <FormLabel>Email address</FormLabel>
         <Input type='email' placeholder="Enter your work email"/>
