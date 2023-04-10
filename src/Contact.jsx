@@ -15,15 +15,6 @@ function ContactInfo() {
       </Heading>
 <br />
 <br />
-      {/* <Text fontSize="lg" mb="3">
-        We'd love to hear from you!
-      </Text>
-
-      <Text fontSize="md" color="gray.600">
-        Phone: (+91)6290911343
-        <br />
-        Email: ardewanji@gmail.com
-      </Text> */}
       <Flex>
       <FormControl isRequired>
         <FormLabel>First name</FormLabel>
