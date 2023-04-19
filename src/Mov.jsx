@@ -60,9 +60,11 @@ function Mov () {
     </CardBody>
 
     <CardFooter>
+    <Link to="/book">
       <Button variant='solid' colorScheme='red'>
         Buy Ticket
       </Button>
+      </Link>
     </CardFooter>
   </Stack>
 </Card>
@@ -92,9 +94,11 @@ function Mov () {
     </CardBody>
 
     <CardFooter>
+    <Link to="/book">
       <Button variant='solid' colorScheme='red'>
       Buy Ticket
       </Button>
+      </Link>
     </CardFooter>
   </Stack>
 </Card>
@@ -123,9 +127,11 @@ function Mov () {
     </CardBody>
 
     <CardFooter>
+    <Link to="/book">
       <Button variant='solid' colorScheme='red'>
       Buy Ticket
       </Button>
+      </Link>
     </CardFooter>
   </Stack>
 </Card>

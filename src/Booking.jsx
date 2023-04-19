@@ -188,6 +188,259 @@ function MultiSelectButtons() {
         10
         </Button>
         </HStack>
+        <HStack>
+        <br />
+        <Button
+          isSelected={selectedButtons.includes("C1")}
+          onClick={() => handleButtonSelect("C1", 100)}
+          bg={selectedButtons.includes("C1") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("C1") ? "white" : "gray.500"}
+          marginLeft={10}
+        >
+        1
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("C2")}
+          onClick={() => handleButtonSelect("C2", 100)}
+          bg={selectedButtons.includes("C2") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("C2") ? "white" : "gray.500"}
+        >
+        2
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("C3")}
+          onClick={() => handleButtonSelect("C3", 100)}
+          bg={selectedButtons.includes("C3") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("C3") ? "white" : "gray.500"}
+        >
+        3
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("C4")}
+          onClick={() => handleButtonSelect("C4", 100)}
+          bg={selectedButtons.includes("C4") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("C4") ? "white" : "gray.500"}
+        >
+        4
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("C5")}
+          onClick={() => handleButtonSelect("C5", 100)}
+          bg={selectedButtons.includes("C5") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("C5") ? "white" : "gray.500"}
+        >
+        5
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("C6")}
+          onClick={() => handleButtonSelect("C6", 100)}
+          bg={selectedButtons.includes("C6") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("C6") ? "white" : "gray.500"}
+        >
+        6
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("C7")}
+          onClick={() => handleButtonSelect("C7", 100)}
+          bg={selectedButtons.includes("C7") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("C7") ? "white" : "gray.500"}
+        >
+        7
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("C8")}
+          onClick={() => handleButtonSelect("C8", 100)}
+          bg={selectedButtons.includes("C8") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("C8") ? "white" : "gray.500"}
+        >
+        8
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("C9")}
+          onClick={() => handleButtonSelect("C9", 100)}
+          bg={selectedButtons.includes("C9") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("C9") ? "white" : "gray.500"}
+        >
+        9
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("C10")}
+          onClick={() => handleButtonSelect("C10", 100)}
+          bg={selectedButtons.includes("C10") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("C10") ? "white" : "gray.500"}
+        >
+        10
+        </Button>
+        </HStack>
+        <HStack>
+        <br />
+        <Button
+          isSelected={selectedButtons.includes("D1")}
+          onClick={() => handleButtonSelect("D1", 100)}
+          bg={selectedButtons.includes("D1") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("D1") ? "white" : "gray.500"}
+          marginLeft={10}
+        >
+        1
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("D2")}
+          onClick={() => handleButtonSelect("D2", 100)}
+          bg={selectedButtons.includes("D2") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("D2") ? "white" : "gray.500"}
+        >
+        2
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("D3")}
+          onClick={() => handleButtonSelect("D3", 100)}
+          bg={selectedButtons.includes("D3") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("D3") ? "white" : "gray.500"}
+        >
+        3
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("D4")}
+          onClick={() => handleButtonSelect("D4", 100)}
+          bg={selectedButtons.includes("D4") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("D4") ? "white" : "gray.500"}
+        >
+        4
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("D5")}
+          onClick={() => handleButtonSelect("D5", 100)}
+          bg={selectedButtons.includes("D5") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("D5") ? "white" : "gray.500"}
+        >
+        5
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("D6")}
+          onClick={() => handleButtonSelect("D6", 100)}
+          bg={selectedButtons.includes("D6") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("D6") ? "white" : "gray.500"}
+        >
+        6
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("D7")}
+          onClick={() => handleButtonSelect("D7", 100)}
+          bg={selectedButtons.includes("D7") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("D7") ? "white" : "gray.500"}
+        >
+        7
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("D8")}
+          onClick={() => handleButtonSelect("D8", 100)}
+          bg={selectedButtons.includes("D8") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("D8") ? "white" : "gray.500"}
+        >
+        8
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("D9")}
+          onClick={() => handleButtonSelect("D9", 100)}
+          bg={selectedButtons.includes("D9") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("D9") ? "white" : "gray.500"}
+        >
+        9
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("D10")}
+          onClick={() => handleButtonSelect("D10", 100)}
+          bg={selectedButtons.includes("D10") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("D10") ? "white" : "gray.500"}
+        >
+        10
+        </Button>
+        </HStack>
+        <br />
+        <HStack>
+        <br />
+        <Button
+          isSelected={selectedButtons.includes("E1")}
+          onClick={() => handleButtonSelect("E1", 100)}
+          bg={selectedButtons.includes("E1") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("E1") ? "white" : "gray.500"}
+          marginLeft={10}
+        >
+        1
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("E2")}
+          onClick={() => handleButtonSelect("E2", 100)}
+          bg={selectedButtons.includes("E2") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("E2") ? "white" : "gray.500"}
+        >
+        2
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("E3")}
+          onClick={() => handleButtonSelect("E3", 100)}
+          bg={selectedButtons.includes("E3") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("E3") ? "white" : "gray.500"}
+        >
+        3
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("E4")}
+          onClick={() => handleButtonSelect("E4", 100)}
+          bg={selectedButtons.includes("E4") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("E4") ? "white" : "gray.500"}
+        >
+        4
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("E5")}
+          onClick={() => handleButtonSelect("E5", 100)}
+          bg={selectedButtons.includes("E5") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("E5") ? "white" : "gray.500"}
+        >
+        5
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("E6")}
+          onClick={() => handleButtonSelect("E6", 100)}
+          bg={selectedButtons.includes("E6") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("E6") ? "white" : "gray.500"}
+        >
+        6
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("E7")}
+          onClick={() => handleButtonSelect("E7", 100)}
+          bg={selectedButtons.includes("E7") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("E7") ? "white" : "gray.500"}
+        >
+        7
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("E8")}
+          onClick={() => handleButtonSelect("E8", 100)}
+          bg={selectedButtons.includes("E8") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("E8") ? "white" : "gray.500"}
+        >
+        8
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("E9")}
+          onClick={() => handleButtonSelect("E9", 100)}
+          bg={selectedButtons.includes("E9") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("E9") ? "white" : "gray.500"}
+        >
+        9
+        </Button>
+        <Button
+          isSelected={selectedButtons.includes("E10")}
+          onClick={() => handleButtonSelect("E10", 100)}
+          bg={selectedButtons.includes("E10") ? "green.500" : "gray.100"}
+          color={selectedButtons.includes("E10") ? "white" : "gray.500"}
+        >
+        10
+        </Button>
+        </HStack>
         </VStack>
       </ButtonGroup>
     </Flex>

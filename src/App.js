@@ -5,19 +5,21 @@ import  Nav from './Navigation';
 import Mov from './Mov';
 import ContactInfo from "./Contact";
 import About from './About';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Test from'./Booking';
-import Carousel from './Slider';
+import Foot from './Footer';
+// import Carousel from './Slider';
 function App() {
   return (
     <>
     <Router>
     <div>
-      <div className="App" id="outer-container">
+      <div className="App" id="outer-container"><Link to="/">
         <Box display= "flex" bg='crimson' w='100%' p={6} color='white' boxShadow="md" justifyContent="center">
         <Image src="https://ik.imagekit.io/5if8ukbxw/images/Logo.png?updatedAt=1680836288989" alt="Cine Time" width="200px" height="45px" />
         </Box>
+        </Link>
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
       </div>
       <div>
@@ -27,7 +29,7 @@ function App() {
     </div>
     </div>
       {/* <Mov /> */}
-      <Carousel />
+      {/* <Carousel /> */}
       <Routes>
         <Route exact path='/' element={<Mov />}>
         </Route>
@@ -39,6 +41,7 @@ function App() {
         </Route>
         </Routes>
       </Router>
+      <Foot />
   </>
   );
 }
