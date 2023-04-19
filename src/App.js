@@ -15,11 +15,10 @@ function App() {
     <>
     <Router>
     <div>
-      <div className="App" id="outer-container"><Link to="/">
-        <Box display= "flex" bg='crimson' w='100%' p={6} color='white' boxShadow="md" justifyContent="center">
-        <Image src="https://ik.imagekit.io/5if8ukbxw/images/Logo.png?updatedAt=1680836288989" alt="Cine Time" width="200px" height="45px" />
+      <div className="App" id="outer-container">
+        <Box display= "flex" bg='crimson' w='100%' p={6} color='white' boxShadow="md" justifyContent="center"><Link to="/">
+        <Image src="https://ik.imagekit.io/5if8ukbxw/images/Logo.png?updatedAt=1680836288989" alt="Cine Time" width="200px" height="45px" /></Link>
         </Box>
-        </Link>
         <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
       </div>
       <div>
