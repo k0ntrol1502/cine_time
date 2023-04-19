@@ -1,8 +1,10 @@
 import React from 'react';
-import { Card,Image, CardBody, CardFooter, Stack, Heading, Button, Text } from '@chakra-ui/react';
+import { Card,Image, CardBody, CardFooter, Stack, Heading, Button, Text, Divider } from '@chakra-ui/react';
+import {Link} from "react-router-dom";
 function Mov () {
   return (
-    <><Card
+    <>
+    <Card
   direction={{ base: 'column', sm: 'row' }}
   overflow='hidden'
   variant='outline'
@@ -26,12 +28,14 @@ function Mov () {
     </CardBody>
 
     <CardFooter>
-      <Button variant='solid' colorScheme='red'>
+    <Link to="/book">
+      <Button variant='solid' colorScheme='red' href='./Book.jsx'>
       Buy Ticket
-      </Button>
+      </Button></Link>
     </CardFooter>
   </Stack>
 </Card>
+<Divider />
 <Card
   direction={{ base: 'column', sm: 'row' }}
   overflow='hidden'
@@ -62,6 +66,7 @@ function Mov () {
     </CardFooter>
   </Stack>
 </Card>
+<Divider />
 <Card
   direction={{ base: 'column', sm: 'row' }}
   overflow='hidden'
@@ -93,6 +98,7 @@ function Mov () {
     </CardFooter>
   </Stack>
 </Card>
+<Divider />
 <Card
   direction={{ base: 'column', sm: 'row' }}
   overflow='hidden'
@@ -123,6 +129,7 @@ function Mov () {
     </CardFooter>
   </Stack>
 </Card>
+<Divider /> 
 </>
   );
 }

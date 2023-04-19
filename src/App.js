@@ -5,9 +5,10 @@ import  Nav from './Navigation';
 import Mov from './Mov';
 import ContactInfo from "./Contact";
 import About from './About';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-
+import Test from'./Booking';
+import Carousel from './Slider';
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
     </div>
     </div>
       {/* <Mov /> */}
+      <Carousel />
       <Routes>
         <Route exact path='/' element={<Mov />}>
         </Route>
@@ -33,7 +35,9 @@ function App() {
         </Route>
         <Route exact path='/contact' element={<ContactInfo />}>
         </Route>
-      </Routes>
+        <Route exact path='/book' element={<Test />}>
+        </Route>
+        </Routes>
       </Router>
   </>
   );
