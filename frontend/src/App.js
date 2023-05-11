@@ -1,14 +1,14 @@
 import React from 'react';
-import Sidebar from './sidebar';
+import Sidebar from './components/sidebar';
 import { Box, Image } from '@chakra-ui/react';
-import  Nav from './Navigation';
-import Mov from './Mov';
-import ContactInfo from "./Contact";
-import About from './About';
+import  Nav from './components/Navigation';
+import Mov from './components/Mov';
+import ContactInfo from "./components/Contact";
+import About from './components/About';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
-import Test from'./Booking';
-import Foot from './Footer';
+import Test from'./components/Booking';
+import Foot from './components/Footer';
 // import Carousel from './Slider';
 function App() {
   return (

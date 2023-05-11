@@ -1,4 +1,5 @@
 import { Button, ButtonGroup, Flex, HStack, VStack } from "@chakra-ui/react";
+import {Link} from "@chakra-ui/react";
 import { useState } from "react";
 
 function MultiSelectButtons() {
@@ -447,6 +448,11 @@ function MultiSelectButtons() {
     <br />
     <Flex justify='left' marginLeft={50}>
     <p>Total Value: ₹{totalValue}</p>
+    </Flex>
+    <Flex>
+    <Link href="/about">
+        <Button colorScheme="green">Proceed to book</Button>
+      </Link>
     </Flex>
     </>
   );
