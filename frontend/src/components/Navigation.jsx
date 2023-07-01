@@ -3,8 +3,8 @@ import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, Flex } from "@chakra-ui/rea
 import {Link} from "react-router-dom";
 function nav  () {
   return(
-    <Flex justify="center" align="center" height  ="5">
-    <Breadcrumb fontsize="8" spacing= "20px" separator={'|'} fontSize="xl">
+    <Flex justify="right" align="right" height  ="8">
+    <Breadcrumb fontsize="8" spacing= "40px" separator={' '} fontSize="xl">
       <BreadcrumbItem>
         <BreadcrumbLink><Link to="/">Home</Link></BreadcrumbLink>
       </BreadcrumbItem>

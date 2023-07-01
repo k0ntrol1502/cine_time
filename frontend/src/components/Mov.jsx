@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card,Image, CardBody, CardFooter, Stack, Heading, Button, Text, Divider } from '@chakra-ui/react';
+import { Card,Image, CardBody, CardFooter, Stack, Heading, Button, Text, Divider, chakra } from '@chakra-ui/react';
 import {Link} from "react-router-dom";
 function Mov () {
   return (
@@ -29,7 +29,8 @@ function Mov () {
 
     <CardFooter>
     <Link to="/book">
-      <Button variant='solid' colorScheme='red' href='./Book.jsx'>
+      <Button variant='solid' colorScheme='red' href='./Book.jsx' as={chakra.button}
+      _hover={{ backgroundColor:"green.500" }}>
       Buy Ticket
       </Button></Link>
     </CardFooter>
@@ -61,7 +62,8 @@ function Mov () {
 
     <CardFooter>
     <Link to="/book">
-      <Button variant='solid' colorScheme='red'>
+    <Button variant='solid' colorScheme='red' href='./Book.jsx' as={chakra.button}
+      _hover={{ backgroundColor:"green.500" }}>
         Buy Ticket
       </Button>
       </Link>
@@ -95,7 +97,8 @@ function Mov () {
 
     <CardFooter>
     <Link to="/book">
-      <Button variant='solid' colorScheme='red'>
+    <Button variant='solid' colorScheme='red' href='./Book.jsx' as={chakra.button}
+      _hover={{ backgroundColor:"green.500" }}>
       Buy Ticket
       </Button>
       </Link>
@@ -128,7 +131,8 @@ function Mov () {
 
     <CardFooter>
     <Link to="/book">
-      <Button variant='solid' colorScheme='red'>
+    <Button variant='solid' colorScheme='red' href='./Book.jsx' as={chakra.button}
+      _hover={{ backgroundColor:"green.500" }}>
       Buy Ticket
       </Button>
       </Link>
